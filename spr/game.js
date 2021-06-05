@@ -1,3 +1,4 @@
+// 石头剪刀布小游戏模块封装
 // game.js
 module.exports = function (playerAction) {
   if (['rock', 'scissor', 'paper'].indexOf(playerAction) == -1) {
