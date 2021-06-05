@@ -40,6 +40,7 @@ http.createServer(function (request, response) {
     response.writeHead(200);
     // 根据不同的游戏结果返回不同的说明
     if (gameRes == 0) {
+      // response.end('平局！');
       response.end('平局！');
     } else if (gameRes == 1) {
       response.end('你赢了！');
