@@ -1,3 +1,4 @@
+// 简易 HTTP 服务器
 // 终端运行命令：node http.js
 // http 是 Node 自带的包，在这里加载引入
 const http = require('http')
