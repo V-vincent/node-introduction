@@ -1,3 +1,4 @@
+// 网页版石头剪刀布小游戏
 const http = require('http');
 const fs = require('fs');
 const url = require('url'); // 加载内置模块url，实现转换发送到该http服务上的http请求包的url
