@@ -1,4 +1,4 @@
-// 加载模块
+// koa 框架改造
 const fs = require('fs');
 const koa = require('koa');
 const mount = require('koa-mount');
